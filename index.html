@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+
+<body>
+    <script src="js/sweetalert.js"></script>
+    <div class="container">
+        <div class="container-form">
+            <form class="sign-in">
+                <h2>Iniciar Sesion</h2>
+
+                <div class="user-login">
+                    <ion-icon name="people-outline"></ion-icon>
+                    <ion-icon name="person-outline"></ion-icon>
+                    <ion-icon name="people-outline"></ion-icon>
+
+                </div>
+                <span>Use su Usuario y Contraseña para ingresar</span>
+                <div class="container-input">
+                    <ion-icon name="person-circle-outline"></ion-icon>
+                    <input type="text" id="Usuario" placeholder="Usuario">
+                </div>
+
+                <div class="container-input">
+                    <ion-icon name="lock-closed-outline"></ion-icon>
+                    <input type="password" id="Contraseña" placeholder="Contraseña">
+                </div>
+                
+                <button class="button" type="button" onclick="ingresar()">INICIAR SESIÓN</button>
+            </form>
+        </div>
+
+
+        <div class="container-form">
+            <form class="sign-up">
+                <h2><img src="/img/logo-cciingenieros.png" alt=""></h2>
+                <h2>C.C.I INGENIERIA S.A.S</h2>
+
+            </form>
+        </div>
+        <div class="container-welcome">
+            <div class="welcome-sign-up welcome">
+                <h3>¡Bienvenido!</h3>
+                <p>Ingrese sus datos para usar las funciones</p>
+                <button class="button" id="btn-sign-up">MAS INFORMACIÓN</button>
+            </div>
+            <div class="welcome-sign-in welcome">
+                <h3>¡Bienvenido a C.C.I INGENIARIA!</h3>
+                <p>Conozca mas sobre nosotros en nuestro sitio web</p>
+            
+                <a href="https://www.cciing.com/" class="Click">Ingrese aquí</a>
+            
+                <button class="button" id="btn-sign-in">INICIAR SESION</button>
+            </div>
+           
+        </div>
+        </div>
+
+    <script src="js/codigo.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+
+    
+</body>
+
+</html>
